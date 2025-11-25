@@ -1,5 +1,8 @@
 package com.example.demo_link_shortener.service;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public class Base36EncoderService implements EncoderService {
 
   @Override
